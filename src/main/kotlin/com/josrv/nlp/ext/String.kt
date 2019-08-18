@@ -1,8 +1,6 @@
 package com.josrv.nlp.ext
 
-object TextNormalization {
-    val punctuation = Regex("[^A-Za-z ]")
-}
+import com.josrv.nlp.TextNormalization
 
 fun String.tokenize(): Sequence<String> =
     sequenceOf("^") +

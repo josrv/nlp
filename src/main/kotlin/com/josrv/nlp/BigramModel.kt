@@ -1,5 +1,6 @@
 package com.josrv.nlp
 
+import com.josrv.nlp.collections.SampledSet
 import com.josrv.nlp.ext.tokenize
 import kotlin.math.pow
 

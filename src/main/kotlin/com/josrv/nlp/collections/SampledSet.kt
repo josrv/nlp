@@ -1,4 +1,4 @@
-package com.josrv.nlp
+package com.josrv.nlp.collections
 
 class SampledSet<T : Any> private constructor() : HashMap<T, Double>() {
 
